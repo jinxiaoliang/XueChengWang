@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+        background: #f3f5f7;
+}
+ul {
+    list-style: none;
+}
+.clearfix:before, .clearfix:after {
+    display: block;
+    content: "";
+}
+.clearfix:after{
+    clear: both;
+}
+.clear {
+    *zoom: 1;
+}
+a{
+    text-decoration: none
+}
+a,p,i,h1,h2,h3,h4,span{
+    font-family: 微软雅黑
+}
+input {
+    border: none;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto 20px;
+}
